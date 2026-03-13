@@ -1,0 +1,296 @@
+/* ================= MAIN SECTION ================= */
+
+.projectDetails {
+  padding: 120px 80px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.projectSection {
+  padding-top: 100px; /* push below navbar */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 150px;
+}
+
+/* Reverse layout support */
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* ================= LEFT CONTENT ================= */
+
+.leftContent {
+  flex: 1;
+  max-width: 520px;
+}
+
+/* MAIN TITLE */
+.projectTitle {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Cyan underline */
+.projectTitle::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 200px;
+  height: 6px;
+  background: #6df6ff;
+  border-radius: 30px;
+}
+
+/* Focus Heading */
+.focusHeading {
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* Focus Text */
+.focusText {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: inherit;
+}
+
+/* Description */
+.desc {
+  margin-top: 18px;
+  font-size: 17px;
+  line-height: 1.8;
+  color: inherit;
+}
+
+/* ================= RIGHT SIDE IMAGES ================= */
+
+.imageRow {
+  flex: 1;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.thumb {
+  width: 270px;
+  height: 380px;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background: #ddd;
+}
+
+.thumb:hover {
+  transform: scale(1.05);
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Zoom Overlay */
+.zoomText {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.3s;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.thumb:hover .zoomText {
+  opacity: 1;
+}
+
+/* ================= BUTTON ================= */
+
+.projectLink {
+  margin-top: 40px;
+}
+
+.projectLink button {
+  padding: 18px 48px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6df6ff, #54d9e0);
+  color: white;
+  transition: 0.3s ease;
+}
+
+.projectLink button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(109, 246, 255, 0.4);
+}
+
+/* ================= LIGHTBOX ================= */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px; /* offset for navbar */
+  z-index: 999;
+}
+.lightboxImg {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 16px;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  top: 50%;
+  font-size: 48px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  transform: translateY(-50%);
+}
+
+.arrowLeft {
+  left: 40px;
+}
+
+.arrowRight {
+  right: 40px;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover,
+.close:hover {
+  color: #6df6ff;
+}
+:global(body.light-mode) .projectTitle {
+  color: #1b6163; /* clean modern blue */
+}
+/* ================= TABLET ================= */
+@media (max-width: 1024px) {
+
+  .projectDetails {
+    padding: 100px 40px;
+  }
+
+  .projectSection {
+    gap: 40px;
+  }
+
+  .projectTitle {
+    font-size: 34px;
+  }
+
+  .focusHeading {
+    font-size: 24px;
+  }
+
+  .thumb {
+    width: 220px;
+    height: 320px;
+  }
+}
+
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .projectSection {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .reverse {
+    flex-direction: column; /* disable reverse on mobile */
+  }
+
+  .leftContent {
+    max-width: 100%;
+  }
+
+  .imageRow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .thumb {
+    width: 80%;
+    height: 300px;
+  }
+
+  .projectTitle::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .projectLink button {
+    padding: 14px 36px;
+    font-size: 18px;
+  }
+}
+
+
+/* ================= SMALL MOBILE ================= */
+@media (max-width: 480px) {
+
+  .projectDetails {
+    padding: 80px 20px;
+  }
+
+  .projectTitle {
+    font-size: 26px;
+  }
+
+  .focusHeading {
+    font-size: 20px;
+  }
+
+  .focusText,
+  .desc {
+    font-size: 15px;
+  }
+
+  .thumb {
+    width: 100%;
+    height: 250px;
+  }
+
+  .arrowLeft,
+  .arrowRight {
+    font-size: 36px;
+  }
+
+}
