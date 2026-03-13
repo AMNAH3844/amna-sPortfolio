@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import { projectsData } from "./projectsData";
 import styles from "./projects.module.css";
 
@@ -18,7 +18,7 @@ export default function UIUXProjectsPage() {
 
   return (
     <main>
-      <Navbar />
+      {/* <Navbar /> */}
 
       {Object.entries(projectsData).map(([id, project], index) => (
         <section
