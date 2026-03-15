@@ -5,69 +5,70 @@ export default function Hero() {
         
         {/* LEFT CONTENT */}
         <div className="hero-left">
-          <h4 className="hero-tag">UI/UX • Graphic • Frontend</h4>
+          <h4 className="hero-tag">UI/UX • Graphic Design • Frontend Development</h4>
 
           <h1>
             I Design & Build
             <span className="highlight"> Digital Experiences</span>
           </h1>
-           <h2>YourName</h2>
+
+          <h2>Amna Arif</h2>
+
           <p className="hero-description">
-            I am an IT graduate and skilled graphic designer with 3 years of experience in creating engaging digital designs.
-           My goal is to deliver effective solutions to problems using creative and digital approaches.
+            Computer Science student and creative designer passionate about
+            building clean, user-friendly digital products. I combine
+            UI/UX design with frontend development to create visually
+            engaging and functional experiences.
           </p>
 
-         <div className="hero-buttons">
-  <a 
-    href="/Resume(G).pdf"  // path relative to public folder
-    download             // tells browser to download file
-    className="primary-btn"
-  >
-    Download Resume
-  </a>
-</div>
-
-
-         </div> 
+          <div className="hero-buttons">
+            <a
+              href="/Resume(G).pdf"
+              download
+              className="primary-btn"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
 
         {/* RIGHT IMAGE */}
-       <div className="hero-right">
-  <img 
-    src="/images/profileimg.png" // path relative to the public folder
-    alt="Hero Image" 
-    className="hero-image" // optional, for styling
-  />
-</div>
-      </div>
-      {/* FEATURED STRIP */}
-      <div className="featured">
-        <p>Skills & Platforms</p>
-        <div className="tools">
-          <span>Figma</span>
-          <span>Adobe XD</span>
-          <span>React</span>
-          <span>WordPress</span>
-          <span>Canva</span>
+        <div className="hero-right">
+          <img
+            src="/images/profileimg.png"
+            alt="Profile"
+            className="hero-image"
+          />
         </div>
       </div>
 
+      {/* FEATURED STRIP */}
+      <div className="featured">
+        <p>Tools & Technologies</p>
+        <div className="tools">
+          <span>Figma</span>
+          <span>Canva</span>
+          <span>JavaScript</span>
+          <span>React Native</span>
+          <span>GitHub</span>
+        </div>
+      </div>
 
       <div className="stats">
         <div>
-          <h2>3+</h2>
-          <p>Years Experience</p>
+          <h2>20+</h2>
+          <p>Design Projects</p>
         </div>
         <div>
-          <h2>50+</h2>
-          <p>Projects Completed</p>
+          <h2>5+</h2>
+          <p>UI/UX Concepts Built</p>
         </div>
         <div>
-          <h2>100%</h2>
-          <p>Client Satisfaction</p>
+          <h2>1</h2>
+          <p>Mobile App in Development</p>
         </div>
       </div>
 
-     
     </section>
   );
 }
