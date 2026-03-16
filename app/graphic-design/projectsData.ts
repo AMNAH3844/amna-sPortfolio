@@ -28,6 +28,6 @@ export const projectsData: Record<
     focus:
       "A collection of vector graphics and illustrations created for digital use, focusing on clean shapes, scalable design, and visually balanced compositions.",
     images: ["/images/no canvapro post.jpg"],
-    link: "https://drive.google.com/drive/folders/YOUR_PROJECT3_LINK",
+    link: "https://drive.google.com/drive/folders/1-Pd7LzEDSJQ2Sw7JQulTjMi1NxRi3Dwn",
   },
 };
