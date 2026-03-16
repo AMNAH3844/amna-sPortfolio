@@ -152,7 +152,41 @@ body.light-mode .toggle:hover {
 }
 /* global.css */
 
+/* ================= MOBILE NAVBAR ================= */
 
+@media (max-width: 768px) {
+
+  .navbar{
+    padding: 14px 10px;
+    gap: 18px;
+    flex-wrap: wrap; /* allows items to wrap */
+  }
+
+  .navbar a{
+    font-size: 14px;
+  }
+
+  .dropdown-menu{
+    top: 40px;
+    min-width: 150px;
+  }
+
+}
+
+/* Extra small phones */
+
+@media (max-width: 480px){
+
+  .navbar{
+    gap: 12px;
+    padding: 12px 6px;
+  }
+
+  .navbar a{
+    font-size: 13px;
+  }
+
+}
 
 /* ================= HERO SECTION ================= */
 

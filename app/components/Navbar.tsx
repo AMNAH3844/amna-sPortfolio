@@ -34,9 +34,9 @@ export default function Navbar() {
       <Link href="/graphic-design">Graphic Design</Link>
 
       <div className="dropdown-menu">
-        <Link href="/graphic-design#project1">Project 1</Link>
-        <Link href="/graphic-design#project2">Project 2</Link>
-        <Link href="/graphic-design#project3">Project 3</Link>
+        <Link href="/graphic-design#project1">Social Media</Link>
+        <Link href="/graphic-design#project2">Digital Product</Link>
+        <Link href="/graphic-design#project3">Illustrations</Link>
       </div>
     </div>
 
@@ -44,7 +44,7 @@ export default function Navbar() {
       <Link href="/ui-ux">UI/UX Projects</Link>
 
       <div className="dropdown-menu">
-        <Link href="/ui-ux#project1">FlexiFit App</Link>
+        {/* <Link href="/ui-ux#project1">FlexiFit App</Link> */}
         <Link href="/ui-ux#project2">AI Task Manager</Link>
       </div>
     </div>

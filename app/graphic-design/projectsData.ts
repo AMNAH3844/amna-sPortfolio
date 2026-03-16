@@ -3,39 +3,31 @@ export const projectsData: Record<
   {
     title: string;
     focus: string;
-    // description: string;
     images: string[];
     link: string;
   }
 > = {
   project1: {
-    title: "Minimalist Advertising Poster Series",
+    title: "Social Media & Marketing Design",
     focus:
-      "Designed to improve brand visibility using strong typography and color psychology while keeping layout clean and distraction-free.",
-    // description:
-    //   "A collection of modern promotional posters designed with strong typography hierarchy, balanced composition, and modern aesthetic principles.",
-    images: ["/images/MINIMALIST.png", "/images/ebook.jpg"],
+      "A collection of promotional social media posts, advertising posters, and YouTube thumbnails designed to capture attention and improve audience engagement through strong typography, contrast, and visual hierarchy.",
+    images: ["/images/MINIMALIST.png", "/images/YT_tumbnail_movies.png"],
     link: "https://drive.google.com/drive/folders/1npolBTt03VZolp2do5xXXBnikNQjVbaI",
   },
 
   project2: {
-    title: "Youtube Thumbnails + Vector Arts",
+    title: "Digital Product Design",
     focus:
-      "Created to increase click-through-rate using contrast, facial emphasis, and bold readable typography.",
-    // description:
-    //   "Catchy YouTube thumbnails and vector SVG elements designed for strong digital engagement and clarity.",
-    images: ["/images/tumbnail.png", "/images/mock1.jpg"],
-    link: "https://drive.google.com/drive/folders/YOUR_PROJECT2_LINK",
+      "A set of digital products including an ebook, prodcut packaging, and portfolio assets designed with modern layout systems and consistent visual branding.",
+    images: ["/images/ebook.jpg", "/images/serumbox.png"],
+    link: "https://www.canva.com/design/DAHBSbyZpe0/p-dTrg84PE4qGxnWCXqqOQ/edit?utm_content=DAHBSbyZpe0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
 
   project3: {
-    title: "Digital Products + Social Media Content",
+    title: "Object Illustrations",
     focus:
-      "Designed to enhance digital branding consistency across multiple social media platforms.",
-    // description:
-    //   "A set of digital products and promotional social media content designed with branding consistency and modern layout systems.",
-    images: ["/images/mock.jpg", "/images/work.jpg"],
+      "A collection of vector graphics and illustrations created for digital use, focusing on clean shapes, scalable design, and visually balanced compositions.",
+    images: ["/images/no canvapro post.jpg"],
     link: "https://drive.google.com/drive/folders/YOUR_PROJECT3_LINK",
   },
 };
-
