@@ -23,9 +23,24 @@
 
 /* ================= LEFT CONTENT ================= */
 
+/* ================= LEFT CONTENT ================= */
 .leftContent {
   flex: 1;
   max-width: 520px;
+  padding-left: 20px; /* Add some space from the left */
+}
+
+/* Optional: if you want a bit more breathing room on smaller screens */
+@media (max-width: 1024px) {
+  .leftContent {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftContent {
+    padding-left: 0; /* Centered on mobile, so remove left padding */
+  }
 }
 
 /* MAIN TITLE */

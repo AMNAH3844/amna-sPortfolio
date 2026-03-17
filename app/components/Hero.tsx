@@ -23,7 +23,7 @@ export default function Hero() {
 
           <div className="hero-buttons">
             <a
-              href="/Resume(G).pdf"
+              href="/AMNA ARIF_GD_RESUME.pdf"
               download
               className="primary-btn"
             >

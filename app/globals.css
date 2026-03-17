@@ -89,7 +89,7 @@ a {
   transform: translateX(-50%) translateY(10px);
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(31, 26, 26, 0.15);
   padding: 18px;
   border-radius: 16px;
   display: flex;
@@ -111,7 +111,7 @@ a {
   font-size: 14px;
   padding: 6px 10px;
   border-radius: 8px;
-  color: white;
+  color: rgb(126, 183, 199);
   transition: 0.2s ease;
 }
 

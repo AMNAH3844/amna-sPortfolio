@@ -49,6 +49,16 @@ export default function Navbar() {
       </div>
     </div>
 
+    <div className="dropdown">
+      <Link href="/webdev">Web Development</Link>
+
+      <div className="dropdown-menu">
+        <Link href="/webdev#project1">FlyBook</Link>
+        <Link href="/webdev#project2">Shopsie</Link>
+      </div>
+    </div>
+    
+
     <Link href="/contact">Contact</Link>    
  <button onClick={toggleTheme} className="toggle">
   {lightMode ? "Dark" : "Light"}
