@@ -15,7 +15,7 @@ export default function Mail() {
 
         <div className="mail-buttons">
   <a 
-  href="mailto:amnahussain5625@gmail.com" 
+  href="mailto:afdigitalcave@gmail.com" 
   className="primary-btn"
   target="_blank" 
   rel="noopener noreferrer"

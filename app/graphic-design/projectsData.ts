@@ -11,7 +11,7 @@ export const projectsData: Record<
     title: "Social Media & Marketing Design",
     focus:
       "A collection of promotional social media posts, advertising posters, and YouTube thumbnails designed to capture attention and improve audience engagement through strong typography, contrast, and visual hierarchy.",
-    images: ["/images/MINIMALIST.png", "/images/YT_tumbnail_movies.png"],
+    images: ["/images/MINIMALIST.png", "/images/tumbnail.png"],
     link: "https://drive.google.com/drive/folders/1npolBTt03VZolp2do5xXXBnikNQjVbaI",
   },
 

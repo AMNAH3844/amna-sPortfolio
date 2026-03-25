@@ -12,10 +12,11 @@ export default function Hero() {
             <span className="highlight"> Digital Experiences</span>
           </h1>
 
-          <h2>Amna Arif</h2>
+          <h2>AMNA ARIF</h2>
 
           <p className="hero-description">
-            Computer Science student and creative designer passionate about
+            Computer Science student currently in last semester.
+            I am creative designer passionate about
             building clean, user-friendly digital products. I combine
             UI/UX design with frontend development to create visually
             engaging and functional experiences.
@@ -33,24 +34,26 @@ export default function Hero() {
         </div>
 
         {/* RIGHT IMAGE */}
-        {/* <div className="hero-right">
+        <div className="hero-right">
           <img
             src="/images/profileimg.png"
             alt="Profile"
             className="hero-image"
           />
-        </div> */}
+        </div>
       </div>
 
-      {/* FEATURED STRIP */}
+     
       <div className="featured">
         <p>Tools & Technologies</p>
         <div className="tools">
           <span>Figma</span>
           <span>Canva</span>
+           <span>photospea</span>
           <span>JavaScript</span>
           <span>React Native</span>
           <span>GitHub</span>
+          <span>AI</span>
         </div>
       </div>
 
@@ -60,8 +63,9 @@ export default function Hero() {
           <p>Design Projects</p>
         </div>
         <div>
-          <h2>5+</h2>
-          <p>UI/UX Concepts Built</p>
+          {/* UI/UX Concepts Built */}
+          <h2>3+</h2>
+          <p>Social Media Management Experience</p>
         </div>
         <div>
           <h2>1</h2>

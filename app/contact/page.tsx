@@ -15,14 +15,15 @@ export default function Contact() {
           <p>
             📧 <strong>Email:</strong>{" "}
             <a href="mailto:amnahussain5625@gmail.com?subject=Portfolio%20Contact">
-              amnahussain5625@gmail.com
+              afDigitalCave@gmail.com
             </a>
           </p>
 
           <p>
             📞 <strong>Phone:</strong>{" "}
             <a href="tel:+923274894726">
-              +92 327 4894726
+              {/* +92 327 4894726 */}
+              +92 333 33 333333
             </a>
           </p>
 
@@ -33,28 +34,27 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin.com/in/amnahussain566
+              linkedin.com
             </a>
           </p>
-
-        </div>
         {/* Instagram (optional) */}
-          {/*
+          {
           <p>
             <strong>Instagram:</strong>{" "}
             <a
-              href="https://www.instagram.com/yourusername"
+              href="https://www.instagram.com/afDigitalCave"
               target="_blank"
               rel="noopener noreferrer"
             >
-              @yourusername
+              @afDigitalCave
             </a>
           </p>
-          */}
+          }
+          </div>
 
         <div style={{ marginTop: "40px" }}>
           <a
-            href="mailto:amnahussain5625@gmail.com?subject=Portfolio%20Contact"
+            href="mailto:afdigitalcave@gmail.com?subject=Portfolio%20Contact"
             className="primary-btn"
           >
             Send Email
