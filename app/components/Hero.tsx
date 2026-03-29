@@ -53,6 +53,7 @@ export default function Hero() {
           <span>JavaScript</span>
           <span>React Native</span>
           <span>GitHub</span>
+          <span>CorelDraw</span>
           <span>AI</span>
         </div>
       </div>

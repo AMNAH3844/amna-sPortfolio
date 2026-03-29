@@ -14,8 +14,8 @@ export default function Contact() {
 
           <p>
             📧 <strong>Email:</strong>{" "}
-            <a href="mailto:amnahussain5625@gmail.com?subject=Portfolio%20Contact">
-              afDigitalCave@gmail.com
+            <a href="mailto:afdigitalcave@gmail.com?subject=Portfolio%20Contact">
+              afdigitalcave@gmail.com
             </a>
           </p>
 
