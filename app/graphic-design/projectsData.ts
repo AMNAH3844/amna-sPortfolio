@@ -19,7 +19,7 @@ export const projectsData: Record<
     title: "Digital Product Design",
     focus:
       "A set of digital products including an ebook, prodcut packaging, and portfolio assets designed with modern layout systems and consistent visual branding.",
-    images: ["/images/ebook.jpg", "/images/serumbox.png", "/images/SNEAK PEAK TO THIS FASHION MAGAZINE.jpg"] 
+    images: ["/images/ebook.jpg", "/images/serumbox.png", "/images/SNEAK PEAK TO THIS FASHION MAGAZINE.jpg"],
     link: "https://www.canva.com/design/DAHBSbyZpe0/p-dTrg84PE4qGxnWCXqqOQ/edit?utm_content=DAHBSbyZpe0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
 
