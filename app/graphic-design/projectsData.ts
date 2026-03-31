@@ -27,7 +27,7 @@ export const projectsData: Record<
     title: "Object Illustrations",
     focus:
       "A collection of vector graphics and illustrations created for digital use, focusing on clean shapes, scalable design, and visually balanced compositions.",
-    images: ["/images/no canvapro post.jpg"],
+    images: ["/images/illsutation post.jpg", "/images/no canvapro post.jpg"],
     link: "https://drive.google.com/drive/folders/1-Pd7LzEDSJQ2Sw7JQulTjMi1NxRi3Dwn",
   },
 };
