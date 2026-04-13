@@ -10,9 +10,9 @@ export const projectsData: Record<
   project1: {
     title: "Social Media & Marketing Design",
     focus:
-      "A collection of promotional social media posts, advertising posters, and YouTube thumbnails designed to capture attention and improve audience engagement through strong typography, contrast, and visual hierarchy.",
+      "A collection of promotional social media posts, advertising posters, and YouTube thumbnails designed to capture attention and improve audience engagement through strong typography, contrast, and visual hierarchy.The attached Behence link have 2 different social Media contents and a sepearte category for posters.",
     images: ["/images/MINIMALIST.png", "/images/YT_tumbnail_movies.png", "/images/serum.png"],
-    link: "https://drive.google.com/drive/folders/1npolBTt03VZolp2do5xXXBnikNQjVbaI",
+    link: "https://www.behance.net/amnahussain17",
   },
 
   project2: {
@@ -20,7 +20,7 @@ export const projectsData: Record<
     focus:
       "A set of digital products including an ebook, prodcut packaging, and portfolio assets designed with modern layout systems and consistent visual branding.",
     images: ["/images/ebook.jpg", "/images/serumbox.png", "/images/SNEAK PEAK TO THIS FASHION MAGAZINE.jpg"],
-    link: "https://www.canva.com/design/DAHBSbyZpe0/p-dTrg84PE4qGxnWCXqqOQ/edit?utm_content=DAHBSbyZpe0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    link: "https://www.behance.net/gallery/247495765/Digital-Products-and-Posters",
   },
 
   project3: {
@@ -28,6 +28,6 @@ export const projectsData: Record<
     focus:
       "A collection of vector graphics and illustrations created for digital use, focusing on clean shapes, scalable design, and visually balanced compositions.",
     images: ["/images/illsutation post.jpg", "/images/no canvapro post.jpg"],
-    link: "https://drive.google.com/drive/folders/1-Pd7LzEDSJQ2Sw7JQulTjMi1NxRi3Dwn",
+    link: "https://www.behance.net/gallery/247495569/Illustration-Objects",
   },
 };
