@@ -21,9 +21,7 @@ export default function Contact() {
 
           <p>
             📞 <strong>Phone:</strong>{" "}
-            <a href="tel:+92 3274894726">
-               +92 3274894726
-            </a>
+            <a href="tel:+92 3274894726">+92 3274894726</a>
           </p>
 
           <p>
