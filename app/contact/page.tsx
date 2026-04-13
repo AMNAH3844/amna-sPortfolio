@@ -19,13 +19,13 @@ export default function Contact() {
             </a>
           </p>
 
-          {/* <p>
+          <p>
             📞 <strong>Phone:</strong>{" "}
-            <a href="tel:+923274894726"> */}
-              {/* +92 327 4894726 */}
-              {/* +92 333 33 333333
+            <a href="tel:+923274894726"> */
+             
+             
             </a>
-          </p> */}
+          </p>
 
           <p>
             💼 <strong>LinkedIn:</strong>{" "}
