@@ -49,7 +49,7 @@ export default function Hero() {
 
           <div className="hero-buttons">
             <a
-              href="/AMNA ARIF.resume.pdf"
+              href="/AMNA ARIF(Resume).pdf"
               download
               className="primary-btn"
             >
@@ -66,10 +66,10 @@ export default function Hero() {
           <span>Figma</span>
           <span>Canva</span>
           <span>Photoshop</span>
+          <span>Illustration</span>
           <span>JavaScript</span>
           <span>React Native</span>
           <span>GitHub</span>
-          <span>CorelDraw</span>
           <span>AI Tools</span>
         </div>
       </div>
@@ -82,7 +82,7 @@ export default function Hero() {
         </div>
         <div>
           <h2>3+</h2>
-          <p>Social Media Management Experience</p>
+          <p>Social Media Platforms Management</p>
         </div>
         <div>
           <h2>1</h2>
