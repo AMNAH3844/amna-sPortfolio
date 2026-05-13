@@ -191,29 +191,47 @@ body.light-mode .toggle:hover {
 /* ================= HERO SECTION ================= */
 
 .hero {
-  padding: 120px 50px 100px 50px; /* extra top for fixed navbar */
+  padding: 120px 50px 100px 50px;
   color: white;
 }
 
+/* MAIN LAYOUT */
 .hero-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   gap: 80px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* IMPORTANT: keeps image on right */
 }
 
+/* LEFT SIDE */
 .hero-left {
   flex: 1;
   min-width: 320px;
   animation: fadeUp 1s ease forwards;
 }
 
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(40px); }
-  to { opacity: 1; transform: translateY(0); }
+/* RIGHT SIDE */
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* ANIMATION */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* TAG */
 .hero-tag {
   display: flex;
   align-items: center;
@@ -233,6 +251,7 @@ body.light-mode .toggle:hover {
   border-radius: 50%;
 }
 
+/* TITLE */
 .hero-left h1 {
   font-family: "Clash Display", sans-serif;
   font-size: 58px;
@@ -241,12 +260,14 @@ body.light-mode .toggle:hover {
   margin-bottom: 20px;
 }
 
+/* GRADIENT TEXT */
 .highlight {
   background: linear-gradient(90deg, #63e1e5, #4fb8ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+/* DESCRIPTION */
 .hero-description {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.75);
@@ -255,6 +276,7 @@ body.light-mode .toggle:hover {
   margin-bottom: 40px;
 }
 
+/* BUTTONS */
 .hero-buttons {
   display: flex;
   gap: 20px;
@@ -292,6 +314,43 @@ body.light-mode .toggle:hover {
   background: rgba(255, 255, 255, 0.1);
 }
 
+/* ================= PROFILE IMAGE ================= */
+
+.profile-circle {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #57c8f5;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.profile-circle:hover {
+  transform: scale(1.05);
+}
+
+.profile-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-description {
+    margin: 0 auto 40px auto;
+  }
+
+  .profile-circle {
+    width: 240px;
+    height: 240px;
+  }
+}
 /* SKILLS */
 
 .skills {

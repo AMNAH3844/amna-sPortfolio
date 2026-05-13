@@ -20,7 +20,21 @@ export const projectsData: Record<
     ],
     link: "https://github.com/AMNAH3844/FlyBook_.git",
   },
-
+  taskQuadrant: {
+  title: "TaskQuadrant",
+  focus:
+    "FocusMatrix is a productivity and task management application " +
+    " based on the that helps users organize tasks according to  " +
+    "urgency and importance. The project focuses on improving  " +
+    "time management and productivity by categorizing tasks into  " +
+    "priority levels, allowing users to focus on important work, manage " +
+    "schedules efficiently, and track their overall productivity through a clean and organized system.",
+  media: [
+    { type: "image", src: "/images/img1.png" },
+    { type: "image", src: "/images/img2.png" },
+  ],
+  link: "https://af-time-manager.vercel.app/",
+},
   shopsie: {
     title: "Shopsie - Shopping & Delivery App",
     focus: 

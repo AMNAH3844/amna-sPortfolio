@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-container">
-        
+
         {/* LEFT CONTENT */}
         <div className="hero-left">
           <h4 className="hero-tag">
@@ -20,43 +20,39 @@ export default function Hero() {
             Computer Science student currently in the last semester.
             I am a creative designer passionate about building clean,
             user-friendly digital products. I combine UI/UX design with
-            frontend development to create visually engaging and
-            functional experiences.
+            frontend development to create visually engaging and functional experiences.
           </p>
 
-          {/* ===== Achievements & Experience ===== */}
           <div className="hero-achievements">
             <div className="achievement-item">
               <h3>NSCT Achievement</h3>
               <p>
-                Scored <strong>91.0 percentile</strong> in the
-                National Skill Competency Test (NSCT) conducted by the
-                Higher Education Commission (HEC) of Pakistan.
+                Scored <strong>91.0 percentile</strong> in the National Skill Competency Test.
               </p>
             </div>
 
             <div className="achievement-item">
               <h3>Social Media & Design Experience</h3>
               <p>
-                Worked with <strong>elumni</strong> as a Social Media Manager
-                and Graphic Designer. Elumni provides courses, coaching,
-                soft and technical skills, career support, and mentorship—
-                helping individuals understand their career paths and grow
-                step by step.
+                Worked with <strong>elumni</strong> as a Social Media Manager and Graphic Designer.
               </p>
             </div>
           </div>
 
           <div className="hero-buttons">
-            <a
-              href="/AMNA ARIF(Resume).pdf"
-              download
-              className="primary-btn"
-            >
+            <a href="/AMNA ARIF(Resume).pdf" download className="primary-btn">
               Download Resume
             </a>
           </div>
         </div>
+
+        {/* RIGHT PROFILE IMAGE */}
+        <div className="hero-right">
+          <div className="profile-circle">
+            <img src="/images/profile.jpeg" alt="Amna Arif Profile" />
+          </div>
+        </div>
+
       </div>
 
       {/* ===== Tools Section ===== */}
