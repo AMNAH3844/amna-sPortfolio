@@ -54,7 +54,8 @@ export default function Navbar() {
 
       <div className="dropdown-menu">
         <Link href="/webdev#project1">FlyBook</Link>
-        <Link href="/webdev#project2">Shopsie</Link>
+          <Link href="/webdev#project2">TaskQuadrant</Link>
+        <Link href="/webdev#project3">Shopsie</Link>
       </div>
     </div>
     
