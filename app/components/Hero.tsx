@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
 
           <div className="hero-buttons">
-            <a href="/AMNA ARIF(Resume).pdf" download className="primary-btn">
+            <a href="/AMNA ARIF_Resume..pdf" download className="primary-btn">
               Download Resume
             </a>
           </div>
