@@ -1072,7 +1072,12 @@ body.light-mode .achievement-item p {
 body.light-mode .achievement-item h3 {
   color: #0aa6b5;
 }
+/* LIGHT MODE PROFILE BACKGROUND */
 
+/* LIGHT MODE HERO IMAGE BOX */
+body.light-mode .hero-right {
+  background: #fafafa
+}
 /* ================= RESPONSIVE DESIGN ================= */
 
 @media screen and (max-width: 480px) {

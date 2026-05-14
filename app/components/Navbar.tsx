@@ -48,16 +48,17 @@ export default function Navbar() {
         <Link href="/ui-ux#project2">AI Task Manager</Link>
       </div>
     </div>
-
     <div className="dropdown">
-      <Link href="/webdev">Web Development</Link>
+  <Link href="/webdev">Web Development</Link>
 
-      <div className="dropdown-menu">
-        <Link href="/webdev#project1">FlyBook</Link>
-          <Link href="/webdev#project2">TaskQuadrant</Link>
-        <Link href="/webdev#project3">Shopsie</Link>
-      </div>
-    </div>
+  <div className="dropdown-menu">
+    <Link href="/webdev#flybook">FlyBook</Link>
+    <Link href="/webdev#taskquadrant">TaskQuadrant</Link>
+    <Link href="/webdev#shopsie">Shopsie</Link>
+  </div>
+</div>
+
+    
     
 
     <Link href="/contact">Contact</Link>    
