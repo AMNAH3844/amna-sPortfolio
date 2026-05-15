@@ -53,20 +53,35 @@ export default function Hero() {
      <div id="tools"></div>
 
 <div className="featured">
-        <p>Tools & Technologies</p>
+  <p className="title">Tools & Technologies</p>
 
-        <div className="tools">
-          <span>Figma</span>
-          <span>Canva</span>
-          <span>Photoshop</span>
-          <span>Illustration</span>
-          <span>JavaScript</span>
-          <span>React Native</span>
-          <span>GitHub</span>
-          <span>AI Tools</span>
-        </div>
-      </div>
+  <div className="tools">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript (ES6+)</span>
+    <span>React.js</span>
+    <span>Next.js</span>
 
+    <span>Node.js</span>
+    <span>Express.js</span>
+    <span>REST APIs</span>
+
+    <span>Python</span>
+    <span>AI / Machine Learning Basics</span>
+    <span>OpenAI API</span>
+    <span>Prompt Engineering</span>
+
+    <span>Git & GitHub</span>
+    <span>MySQL</span>
+    <span>Firebase</span>
+
+    <span>Figma</span>
+    <span>Canva</span>
+    <span>Photoshop</span>
+    <span>Illustration</span>
+    <span>AI Tools</span>
+  </div>
+</div>
      {/* ===== EXPERIENCE SECTION ===== */}
 <div className="experience-section" id="experience">
 
@@ -117,23 +132,15 @@ export default function Hero() {
           Worked on multiple client and personal projects including:
 
           <br /><br />
+          <p>
+<strong>Al-Harmain (Islamic Institute):</strong> Designed social media posts, flyers, and branding materials while collaborating with a team of 4–5 designers. Managed consistent content strategy across Instagram, Facebook, and LinkedIn for better engagement.  
+<br /><br />
+<strong>NoorulNisa Platform:</strong> Worked as a graphic designer creating flyers, social media stories, and promotional visuals focused on women empowerment and community development initiatives.  
+<br /><br />
+<strong>Personal Projects:</strong> Developed UI/UX designs and full-stack concepts including portfolio websites, productivity tools, and mobile app ideas using Figma, React, and databases like MySQL and Firebase.
+</p>
 
-          <strong>Al-Harmain (Islamic Institute):</strong><br />
-          Designed social media posts, flyers, and branding materials.
-          Collaborated with a team of 4–5 designers and managed Instagram,
-          Facebook, and LinkedIn content with consistent visual strategy.
-
-          <br /><br />
-
-          <strong>NoorulNisa Platform:</strong><br />
-          Contributed as a graphic designer creating flyers, social media stories,
-          and promotional content focused on women empowerment and development.
-
-          <br /><br />
-
-          <strong>Personal Projects:</strong><br />
-          Designed UI/UX apps, portfolio websites, ebooks, and productivity tools
-          such as task schedulers and concept applications using Figma and react native with database like mysql and firebase.
+         
 
         </p>
 

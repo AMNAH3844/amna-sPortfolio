@@ -433,40 +433,46 @@ body.light-mode .toggle:hover {
 
 .featured {
   margin-top: 80px;
-  padding: 20px 30px;
+  padding: 25px 30px;
   background: rgba(134, 188, 219, 0.05);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
-.featured p {
+.featured .title {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 10px;
 }
 
 .tools {
   display: flex;
-  gap: 15px;
   flex-wrap: wrap;
+  gap: 12px; /* spacing between tags */
 }
 
 .tools span {
   background: rgba(255, 255, 255, 0.08);
-  padding: 6px 14px;
+  padding: 8px 14px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 13px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   color: rgba(255, 255, 255, 0.85);
+  transition: 0.3s ease;
 }
 
 .tools span:hover {
   background: linear-gradient(90deg, #63e1e5, #4fb8ff);
   color: black;
+  transform: scale(1.05);
 }
+
+
 /* FIX SCROLL POSITION FOR NAVBAR */
 
 
@@ -752,7 +758,13 @@ body.light-mode .contact-item span {
 body.light-mode .contact-item a {
   color: #0aa6b5;
 }
-
+body.light-mode .tools span:hover,
+body:not(.light-mode) .tools span:hover {
+  background: linear-gradient(90deg, #63e1e5, #4fb8ff);
+  color: #000;
+  border-color: transparent;
+  transform: scale(1.05);
+}
 /* ================= RESPONSIVE ================= */
 
 @media (max-width: 768px) {
