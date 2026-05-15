@@ -1,31 +1,31 @@
-import "../globals.css";
-
 export default function Contact() {
   return (
     <section id="contact" className="contact">
+
       <div className="contact-container">
-        <h2>Contact Me</h2>
 
-        <p className="contact-subtitle">
-          Let’s work together on your next project.
-        </p>
+        {/* LEFT SIDE */}
+        <div className="contact-left">
 
-        <div className="contact-info">
+          <div className="contact-item">
+            <span>Email</span>
 
-          <p>
-            📧 <strong>Email:</strong>{" "}
             <a href="mailto:afdigitalcave@gmail.com?subject=Portfolio%20Contact">
               afdigitalcave@gmail.com
             </a>
-          </p>
+          </div>
 
-          <p>
-            📞 <strong>Phone:</strong>{" "}
-            <a href="tel:+92 3274894726">+92 3274894726</a>
-          </p>
+          <div className="contact-item">
+            <span>Phone</span>
 
-          <p>
-            💼 <strong>LinkedIn:</strong>{" "}
+            <a href="tel:+923274894726">
+              +92 327 4894726
+            </a>
+          </div>
+
+          <div className="contact-item">
+            <span>LinkedIn</span>
+
             <a
               href="https://www.linkedin.com/in/amnahussain566"
               target="_blank"
@@ -33,11 +33,11 @@ export default function Contact() {
             >
               amnahussain566
             </a>
-          </p>
-        {/* Instagram (optional) */}
-          {
-          <p>
-            <strong>Instagram:</strong>{" "}
+          </div>
+
+          <div className="contact-item">
+            <span>Instagram</span>
+
             <a
               href="https://www.instagram.com/afDigitalCave"
               target="_blank"
@@ -45,24 +45,33 @@ export default function Contact() {
             >
               @afDigitalCave
             </a>
-          </p>
-          }
           </div>
 
-        <div style={{ marginTop: "40px" }}>
-          <a
-            href="mailto:afdigitalcave@gmail.com?subject=Portfolio%20Contact"
-            className="primary-btn"
-          >
-            Send Email
-          </a>
         </div>
 
-        <p className="contact-thankyou">
-          Thank you for visiting my portfolio. I truly appreciate your time
-          and look forward to connecting with you!
-        </p>
+        {/* RIGHT SIDE */}
+        <div className="contact-right">
+
+          <div className="contact-heading">
+            <h2>
+              Contact <br />
+              Us
+            </h2>
+          </div>
+
+          <p>
+           Feel free to reach out. I’d love to work.
+          </p>
+
+        </div>
+
       </div>
+
+      {/* THANK YOU */}
+      <p className="contact-thankyou">
+        Thank you for visiting my portfolio.
+      </p>
+
     </section>
   );
 }

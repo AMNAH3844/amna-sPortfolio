@@ -1,7 +1,5 @@
 "use client";
 
-import { Sun, Moon } from "lucide-react";
-
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
@@ -26,46 +24,48 @@ export default function Navbar() {
     setLightMode(isLight);
   };
 
- return (
-  <nav className="navbar">
-    <Link href="/">Home</Link>
+  return (
+    <nav className="navbar">
+      <Link href="/">Home</Link>
 
-    <div className="dropdown">
-      <Link href="/graphic-design">Graphic Design</Link>
+      {/* HERO SECTION LINKS */}
+    <Link href="/#tools">Tools</Link>
+<Link href="/#experience">Experience</Link>
 
-      <div className="dropdown-menu">
-        <Link href="/graphic-design#project1">Social Media</Link>
-        <Link href="/graphic-design#project2">Digital Product</Link>
-        <Link href="/graphic-design#project3">Illustrations</Link>
+
+      <div className="dropdown">
+        <Link href="/graphic-design">Graphic Design</Link>
+
+        <div className="dropdown-menu">
+          <Link href="/graphic-design#project1">Social Media</Link>
+          <Link href="/graphic-design#project2">Digital Product</Link>
+          <Link href="/graphic-design#project3">Illustrations</Link>
+        </div>
       </div>
-    </div>
 
-    <div className="dropdown">
-      <Link href="/ui-ux">UI/UX Projects</Link>
+      <div className="dropdown">
+        <Link href="/ui-ux">UI/UX Projects</Link>
 
-      <div className="dropdown-menu">
-        {/* <Link href="/ui-ux#project1">FlexiFit App</Link> */}
-        <Link href="/ui-ux#project2">AI Task Manager</Link>
+        <div className="dropdown-menu">
+          <Link href="/ui-ux#project2">AI Task Manager</Link>
+        </div>
       </div>
-    </div>
-    <div className="dropdown">
-  <Link href="/webdev">Web Development</Link>
 
-  <div className="dropdown-menu">
-    <Link href="/webdev#flybook">FlyBook</Link>
-    <Link href="/webdev#taskquadrant">TaskQuadrant</Link>
-    <Link href="/webdev#shopsie">Shopsie</Link>
-  </div>
-</div>
+      <div className="dropdown">
+        <Link href="/webdev">Web Development</Link>
 
-    
-    
+        <div className="dropdown-menu">
+          <Link href="/webdev#flybook">FlyBook</Link>
+          <Link href="/webdev#taskquadrant">TaskQuadrant</Link>
+          <Link href="/webdev#shopsie">Shopsie</Link>
+        </div>
+      </div>
 
-    <Link href="/contact">Contact</Link>    
- <button onClick={toggleTheme} className="toggle">
-  {lightMode ? "Dark" : "Light"}
-</button>
-   
+      <Link href="/contact">Contact</Link>
+
+      <button onClick={toggleTheme} className="toggle">
+        {lightMode ? "Dark" : "Light"}
+      </button>
     </nav>
   );
 }
