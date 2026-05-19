@@ -279,8 +279,9 @@ body.light-mode .toggle:hover {
   max-width: 520px;
   line-height: 1.7;
   margin-bottom: 40px;
+  text-align: justify;
+  text-justify: inter-word;
 }
-
 /* BUTTONS */
 .hero-buttons {
   display: flex;

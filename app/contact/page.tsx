@@ -55,7 +55,7 @@ export default function Contact() {
           <div className="contact-heading">
             <h2>
               Contact <br />
-              Us
+              Me
             </h2>
           </div>
 
