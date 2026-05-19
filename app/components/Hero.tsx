@@ -41,11 +41,11 @@ export default function Hero() {
         </div>
 
         {/* RIGHT PROFILE IMAGE */}
-        <div className="hero-right">
+        {/* <div className="hero-right">
           <div className="profile-circle">
             <img src="/images/profile.jpeg" alt="Amna Arif Profile" />
           </div>
-        </div>
+        </div> */}
 
       </div>
 
