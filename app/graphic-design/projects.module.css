@@ -1,5 +1,4 @@
 /* ================= MAIN SECTION ================= */
-
 .projectDetails {
   padding: 120px 80px;
   max-width: 1400px;
@@ -13,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+
   margin-bottom: 150px;
 }
 
@@ -23,23 +23,44 @@
 
 /* ================= LEFT CONTENT ================= */
 
-/* ================= LEFT CONTENT ================= */
 .leftContent {
   flex: 1;
   max-width: 520px;
-  padding-left: 20px; /* Add some space from the left */
+  padding-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-/* Optional: if you want a bit more breathing room on smaller screens */
+/* responsive adjustments */
 @media (max-width: 1024px) {
+  .projectDetails {
+    padding: 100px 50px;
+  }
+
   .leftContent {
     padding-left: 15px;
   }
 }
 
 @media (max-width: 768px) {
+  .projectSection {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
   .leftContent {
-    padding-left: 0; /* Centered on mobile, so remove left padding */
+    padding-left: 0;
+    max-width: 100%;
+
+    align-items: center;
+  }
+
+  .focusText,
+  .desc {
+    text-align: left;
   }
 }
 
@@ -72,21 +93,33 @@
 
 /* Focus Text */
 .focusText {
-  margin-top: 15px;
-  font-size: 18px;
+  margin-top: 14px;
+  font-size: 17px;
   line-height: 1.8;
   color: inherit;
+
+  max-width: 42ch;
+
+  text-align: justify;
+  text-justify: inter-word;
+
+  hyphens: auto;
 }
 
 /* Description */
 .desc {
-  margin-top: 18px;
-  font-size: 17px;
+  margin-top: 16px;
+  font-size: 16px;
   line-height: 1.8;
   color: inherit;
-}
 
-/* ================= RIGHT SIDE IMAGES ================= */
+  max-width: 42ch;
+
+  text-align: justify;
+  text-justify: inter-word;
+
+  hyphens: auto;
+}
 
 .imageRow {
   flex: 1;

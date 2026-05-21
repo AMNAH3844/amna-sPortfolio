@@ -15,23 +15,20 @@ export default function Hero() {
           </h1>
 
           <h2>AMNA ARIF</h2>
+         <p className="hero-description">
+  I’m currently in the final semester of my Computer Science degree,
+  with strong skills in problem solving, coding, and building digital
+  solutions. My main interests are Web Development, UI/UX Design,
+  and Graphic Design. And along with that, I'm learning machine learning and AI.
+  In today’s AI-driven world, I believe it is important to create
+  designs that feel unique and meaningful instead of repetitive.
+  I observe real-life problems and turning them digital solutions.
+  <br /><br />
+  Achieved <strong>91.0 percentile</strong> in the National
+  Skill Competency Test (NSCT).
+</p>
 
-          <p className="hero-description">
-            Computer Science student currently in the last semester.
-            I am a creative designer passionate about building clean,
-            user-friendly digital products. I combine UI/UX design with
-            frontend development to create visually engaging and functional experiences.
-          </p>
-
-          {/* ACHIEVEMENTS */}
-          <div className="hero-achievements">
-            <div className="achievement-item">
-              <h3>NSCT Achievement</h3>
-              <p>
-                Scored <strong>91.0 percentile</strong> in the National Skill Competency Test.
-              </p>
-            </div>
-          </div>
+         
 
           <div className="hero-buttons">
             <a href="/AMNA ARIF_RESUME.pdf" download className="primary-btn">
@@ -41,11 +38,11 @@ export default function Hero() {
         </div>
 
         {/* RIGHT PROFILE IMAGE */}
-        {/* <div className="hero-right">
+        <div className="hero-right">
           <div className="profile-circle">
             <img src="/images/profile.jpeg" alt="Amna Arif Profile" />
           </div>
-        </div> */}
+        </div>
 
       </div>
 
@@ -83,73 +80,104 @@ export default function Hero() {
   </div>
 </div>
      {/* ===== EXPERIENCE SECTION ===== */}
+{/* ===== EXPERIENCE SECTION ===== */}
 <div className="experience-section" id="experience">
 
+  {/* HEADING */}
   <div className="experience-heading">
     <h2>Experience</h2>
-    <p>Professional & Creative Journey</p>
+    <p>Creative & Professional Journey</p>
   </div>
 
+  {/* TIMELINE */}
   <div className="experience-timeline">
 
-    {/* 1 - ELUMNI */}
+    {/* ITEM 1 */}
     <div className="experience-item">
+
+      <div className="experience-icon">
+        <span>✦</span>
+      </div>
+
       <div className="experience-content">
 
         <div className="experience-top">
           <h3>Elumni</h3>
-          <div className="experience-duration">2026 </div>
+          <span className="experience-duration">2026</span>
         </div>
 
-        <p className="experience-role">
-          Social Media Manager & Graphic Designer| elumni - A platform offering courses, coaching and mentorship.
-        </p>
+        <h4 className="experience-role">
+          Social Media Manager & Graphic Designer
+        </h4>
 
-        <p className="experience-description">
-          Managed social media campaigns, designed digital creatives,
-          improved visual branding, and created engaging content
-          for audience growth and online presence.
-        </p>
+        <ul className="experience-points">
+          <li>
+            Managed social media campaigns and content strategy.
+          </li>
+
+          <li>
+            Designed digital creatives, posts, and branding materials.
+          </li>
+
+          <li>
+            Helped improve audience engagement and online presence.
+          </li>
+        </ul>
 
       </div>
     </div>
 
-    {/* 2 - FREELANCE OVERALL */}
+    {/* ITEM 2 */}
     <div className="experience-item">
+
+      <div className="experience-icon">
+        <span>✦</span>
+      </div>
+
       <div className="experience-content">
 
         <div className="experience-top">
           <h3>Freelance Projects</h3>
-          <div className="experience-duration">2023 — Present</div>
+          <span className="experience-duration">
+            2023 — Present
+          </span>
         </div>
 
-        <p className="experience-role">
-          UI/UX Designer • Graphic Designer • Frontend Work
-        </p>
+        <h4 className="experience-role">
+          UI/UX Designer • Graphic Designer • Frontend Developer
+        </h4>
 
-        <p className="experience-description">
+        <ul className="experience-points">
 
-          Worked on multiple client and personal projects including:
+          <li>
+            Worked on multiple client and personal projects including
+            UI/UX design, branding, and frontend development.
+          </li>
 
-          <br /><br />
-          <p>
-<strong>Al-Harmain (Islamic Institute):</strong> Designed social media posts, flyers, and branding materials while collaborating with a team of 4–5 designers. Managed consistent content strategy across Instagram, Facebook, and LinkedIn for better engagement.  
-<br /><br />
-<strong>NoorulNisa Platform:</strong> Worked as a graphic designer creating flyers, social media stories, and promotional visuals focused on women empowerment and community development initiatives.  
-<br /><br />
-<strong>Personal Projects:</strong> Developed UI/UX designs and full-stack concepts including portfolio websites, productivity tools, and mobile app ideas using Figma, React, and databases like MySQL and Firebase.
-</p>
+          <li>
+            Designed social media creatives and branding materials
+            for Al-Harmain Institute while collaborating with a
+            creative team.
+          </li>
 
-         
+          <li>
+            Created promotional visuals and campaign designs for
+            NoorulNisa Platform focused on women empowerment
+            initiatives.
+          </li>
 
-        </p>
+          <li>
+            Built portfolio websites, UI concepts, and full-stack
+            project ideas using React, Firebase, Figma, and MySQL.
+          </li>
+
+        </ul>
 
       </div>
     </div>
 
   </div>
 </div>
-
       {/* ===== STATS SECTION ===== */}
       <div className="stats">
         <div>
